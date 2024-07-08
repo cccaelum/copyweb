@@ -1,0 +1,229 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.gradient {
+    background: linear-gradient(to right, orange, red, fuchsia);
+    width: 100%;
+    height: 10px;
+}
+
+nav {
+    width: 100%;
+    border-bottom: solid 1px lightgrey;
+}
+.nav {
+    display: flex;
+    gap: 30px;
+    padding: 20px 32px;
+    margin: 0 0 0 183px;
+    width: 100%;
+}
+
+.nav span {
+    scale: 1.3;
+}
+.nav li{
+    list-style-type: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: inherit;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.header-two {
+    display: flex;
+    margin: 0 0 0 215px;
+}
+
+.npmdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.npm {
+    width: 70px;
+    height: 70px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 40px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin: 20px 0 20px 30px;
+}
+.lupa {
+    width: 20px;
+    height: 20px;
+    margin: 10px 16px;
+}
+
+input[type="search"] {
+    border: none;
+    font-family: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+
+.search-button {
+    margin: 20px 0 20px 0;
+}
+
+button[type="submit"] {
+    border: none;
+    color: white;
+    background-color: #231f20;
+    font-weight: bold;
+    font-size: 13px;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#signup, #signin {
+    display: flex;
+    align-items: center; /* Alinea el texto verticalmente dentro de los botones */
+    justify-content: center; /* Centra el texto horizontalmente */
+    height: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#signup {
+    border: solid 1px lightgrey;
+    text-decoration: none;
+    color: #231f20;
+    width: 57px;
+    padding: 13px 28px;
+    margin: 16px;
+}
+
+#signin {
+    text-decoration: none;
+    color: #231f20;
+    width: 57px;
+    padding: 4px;
+    margin: 16px 0 16px 0;
+}
+
+#signup:hover, #signin:hover {
+    color: grey;
+}
+
+.imagen {
+    display: flex;
+    background-image: url(https://static-production.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding: 100px 20px 20px 20px; 
+    box-sizing: border-box;
+}
+
+.imagen h1, .imagen h2, .imagen p, .imagen .buttons {
+    margin: 5px 0; /* Añade margen vertical entre los elementos */
+    padding: 10px;
+    color: white;
+}
+
+.imagen h1 {
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.3
+}
+
+.imagen p {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5
+}
+
+.imagen h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+.amarillo, .rojo{
+    font-family: "Poppins", sans-serif;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.amarillo {
+    background-color: #ffc329;
+    border: none;
+}
+
+.rojo {
+    background-color: #cb3837; 
+    border-color: white;
+    color: white;
+}
