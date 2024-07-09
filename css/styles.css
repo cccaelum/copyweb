@@ -146,7 +146,7 @@ button[type="submit"] {
 
 #signup, #signin {
     display: flex;
-    align-items: center; /* Alinea el texto verticalmente dentro de los botones */
+    align-items: center; /* Centra el texto verticalmente */
     justify-content: center; /* Centra el texto horizontalmente */
     height: 22px;
     font-family: "Poppins", sans-serif;
@@ -189,7 +189,7 @@ button[type="submit"] {
 }
 
 .imagen h1, .imagen h2, .imagen p, .imagen .buttons {
-    margin: 5px 0; /* Añade margen vertical entre los elementos */
+    margin: 5px 0; 
     padding: 10px;
     color: white;
 }
